@@ -4,10 +4,12 @@ Antenna switch HMC253 and ESP8266
 Connections: 
 
 D7 -> A
+
 D6 -> B
+
 D5 -> C
 
-Use VCC - 5.6K - A(B,C) - 10K - GND resistors to prevent 5V to GPIO ESP8266.
+Use VCC - 5.6K - A(B,C) - 10K - GND resistors devider to prevent 5V to GPIO ESP8266.
 
 Use "python ant.py 4" to set RF4
 Use "python ant.py get" to get current RF.
